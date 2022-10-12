@@ -16,7 +16,7 @@ var enjoySumm = enjoyEuro * euro;
 var allCost = planeSumm * hotelSumm * enjoySumm
 
 if (userMoney >= allCost) {
-   elWrapper.textContent = "Have a safe trip";
+   elWrapper.innerHTML = "<strong> Have a safe trip! </strong>";
 } else {
-   elWrapper.textContent = "You don't have enough money!";
+   elWrapper.innerHTML = "<strong> You don't have enough money! </strong>";
 }
